@@ -1,0 +1,120 @@
+.branding-area {
+    margin-top: 100px;
+}
+
+.branding-area .b-round {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.branding-area .box .benefit-title {
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    font-family: 'Sora', sans-serif;
+}
+
+.branding-area .branding-num {
+    font-size: 20px;
+    margin-right: 30px;
+    color: black;
+}
+
+.branding-area h2 {
+    display: inline-block;
+    font-size: 40px;
+    color: black;
+}
+
+.branding-title {
+
+    padding: 20px;
+}
+
+.branding-title-border {
+    border-bottom: 1px solid #d3d0d0;
+}
+
+.branding-area .box .branding-area-para {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.branding-area .box {
+    position: relative;
+
+}
+
+.branding-area .img-box-1 {
+    width: 70%;
+    padding-left: 60px;
+    margin: 0 auto;
+    /* position: absolute; */
+}
+
+.branding-area .box .img-box-2 img {
+    width: 20%;
+}
+
+.branding-area .box .img-box-2 {
+    /* border: 1px solid #d3d0d0; */
+    padding: 50px;
+    width: 61%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+}
+
+.branding-area .box .img-box-2 p {
+    margin-top: 30px;
+}
+
+.branding-area .img-box-2 .branding-area-btn {
+    display: inline-block;
+    color: black;
+    font-size: 13px;
+}
+
+.branding-area .img-box-2 .branding-area-btn-arrow {
+    color: black;
+}
+
+@media(max-width:992px) {
+
+    .branding-area h2 {
+        font-size: 30px;
+    }
+
+    .branding-area .box .img-box-2 {
+        padding: 30px;
+        width: 40%;
+        left: 100px;
+    }
+
+}
+
+@media(max-width:768px) {
+    .branding-area .box .img-box-2 p {
+        margin-top: 10px;
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width:576px) {
+    .branding-area .box .img-box-2 {
+        width: 65%;
+        left: 5px;
+    }
+}
+
+@media(max-width:337px) {
+    .branding-area .box .img-box-2 {
+        top: 0px;
+    }
+}

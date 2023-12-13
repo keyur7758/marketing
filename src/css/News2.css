@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
+
+.news-area h4 {
+    padding: 50px 0px;
+    color: black;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.news-area .carousel-icon {
+    font-weight: 900;
+    color: #a5a3a3;
+    font-size: 30px;
+    margin: 0px 40px;
+    margin-bottom: 10px;
+}
+
+.news-area .rfm-marquee-container {
+    background: whitesmoke;
+    margin-top: 50px;
+    border-top: 1px solid #d3d0d0;
+    border-bottom: 1px solid #d3d0d0;
+    overflow: hidden;
+}
+
+
+.news-area .amazing {
+    font-family: 'Zen Tokyo Zoo';
+    font-weight: 100;
+
+}
+
+.news-area .amazing-1 {
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+@media(max-width:992px) {
+    .news-area h4 {
+        font-size: 40px;
+    }
+
+    .news-area .carousel-icon {
+        font-size: 20px;
+    }
+}

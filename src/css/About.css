@@ -1,0 +1,64 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,ul,li,a,p{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Epilogue', sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+.about-area {
+    overflow: hidden;
+}
+.about-area .about-img{
+    background-image: url(/public/images/fixed-3.jpg);
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-area h1{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+.about-area p{
+color: #fff;
+font-size: 14px;
+font-weight: 300;
+line-height: 1.8em;
+letter-spacing: 2px;
+}
+
+.blog-area{
+    margin: 100px 0px;
+}
+.business-img {
+    background: #e8e8e8;
+}
+@media (max-width:768px){
+    .about-area h1 {
+        font-size: 40px;
+    }.about-area .about-img{
+        width: 100vw;
+        height: 70vh;
+    }
+}
+@media (max-width:576px){
+    .about-area .about-img{
+        width: 100vw;
+        height: 60vh;
+    }
+}

@@ -1,0 +1,95 @@
+.award-area .award-box-middle {
+    text-align: center;
+}
+
+.award-area .award-box-start {
+    text-align: start;
+}
+
+.award-area .award-box-end {
+    text-align: end;
+}
+
+.award-area .award-box-1 h1 {
+    color: black;
+    font-size: 100px;
+    font-family: 'Monoton', cursive;
+}
+
+.award-area .award-box-2 h1 {
+    color: black;
+    font-size: 100px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+
+
+}
+
+.award-area .award-box-3 h1 {
+    color: black;
+    font-size: 100px;
+    font-family: 'Monoton', cursive;
+
+}
+
+.award-area .award-box-4 h1 {
+    color: black;
+    font-size: 100px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+
+}
+
+.award-area {
+    margin-top: 100px;
+}
+
+.award-area .award-border-box {
+    height: 1px;
+    background: #d3d0d0;
+    margin-bottom: 80px;
+}
+
+.award-area .award-box-1 h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    color: black;
+}
+
+.award-area .award-box-2 h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    color: black;
+}
+
+.award-area .award-box-3 h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    color: black;
+}
+
+.award-area .award-box-4 h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    color: black;
+}
+
+@media(max-width:992px) {
+    .award-area .award-center {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .award-area .award-center h1 {
+        color: black;
+        font-size: 60px;
+        font-family: 'Monoton', cursive;
+        font-weight: 100;
+    }
+
+    .award-area .award-center h4 {
+        font-size: 16px;
+
+    }
+
+}

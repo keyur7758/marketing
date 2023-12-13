@@ -1,0 +1,40 @@
+
+.marequee-area h4 {
+    padding: 50px 0px;
+    color: black;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.marequee-area .carousel-icon {
+    font-weight: 900;
+    color: #a5a3a3;
+    font-size: 30px;
+    margin: 0px 40px;
+    margin-bottom: 10px;
+}
+
+section.marequee-area {
+}
+
+.marequee-area .rfm-marquee-container {
+    background: whitesmoke;
+    margin-top: 50px;
+
+    border-top: 1px solid #d3d0d0;
+    border-bottom: 1px solid #d3d0d0;
+    transform: rotate(-3deg);
+    overflow: hidden;
+    transform: rotate(-3deg);
+    position: absolute;
+    top: 0;
+}
+
+@media(max-width:992px) {
+    .marequee-area h4 {
+        font-size: 40px;
+    }
+    .marequee-area .carousel-icon {
+        font-size: 20px;
+    }
+}

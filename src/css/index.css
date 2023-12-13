@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media (min-width:992px) {
+  .navbar-expand-lg .navbar-collapse {
+      display: flex !important;
+      flex-basis: auto;
+      justify-content: end;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .inner {
+      width: 100%
+  }
+  .content-wrapper-2.content-wrapper-black {
+      height: 160px;
+  }
+}
+
+@media (max-width:1400px) {
+  .img-box-1 {
+      width: 80%;
+      padding-left: 60px;
+      margin: 0 auto;
+      /* position: absolute; */
+  }
+
+
+
+  .gallery-area .owl-carousel .item {
+      padding: 30px;
+  }
+}
+
+
+@media(max-width:992px) {
+
+
+
+  .inner {
+      width: 100%;
+  }
+
+  .card-area .box {
+      margin-bottom: 30px;
+  }
+
+  .img-box-1 {
+      width: 60%;
+      padding-left: 60px;
+      margin-top: 50px;
+  }
+
+
+  .gallery-area .owl-carousel .item {
+      padding: 30px;
+  }
+
+  .award-area .award-center h1 {
+      color: black;
+      font-size: 60px;
+      font-family: 'Monoton', cursive;
+      font-weight: 100;
+  }
+  .award-area .award-center h4 {
+   font-size: 16px;
+   
+  }
+
+}
+
+@media(max-width:768px){
+
+
+  .img-box-1 {
+      width: 70%;
+     
+  }
+  .footer-last-area .footer-logo-box h4 {
+      padding: 0px;
+      margin-top: 20px;
+  }
+  .carouselTicker__item h4 {
+      font-size: 50px;
+  }
+
+}
+
+@media (max-width:576px) {
+  
+ 
+
+  .content-wrapper-2.content-wrapper-black {
+      height: 140px;
+  }
+
+  .header-area .box .CREATIVE {
+
+      font-size: 55px;
+  }
+
+
+
+}
+
+@media(max-width:576px){
+   
+
+
+  .vc-area .vc-info .play-icon {
+      font-size: 30px;
+    
+  }
+  .vc-area .btn-1 {
+      font-size: 12px;
+     
+  }
+
+  .carouselTicker__item h4 {
+      font-size: 30px;
+  }
+ 
+  .card-area {
+      margin-top: 50px;
+  }
+  .card-area .box .img-box {
+      padding: 40px;
+  }
+  .gallery-area .owl-carousel .item {
+      padding: 10px;
+  }
+  section.gallery-area {
+      margin-bottom: 50px;
+  }
+  .img-box-1 {
+      width: 100%;
+  }
+  .carousel-inner {
+     
+      padding-bottom: 30px;
+  }
+  .carousel-control-next, .carousel-control-prev {
+
+      margin-left: -5px;
+  }
+
+
+}

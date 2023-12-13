@@ -1,0 +1,84 @@
+
+.benefit-area {
+    margin-top: 100px;
+}
+
+.benefit-area .box .benefit-title {
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    font-family: 'Sora', sans-serif;
+}
+
+.benefit-area .box .b-round {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.benefit-area .box h3 {
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+.benefit-area .box p {
+    margin-top: 20px;
+    color: #978f92;
+}
+
+.benefit-area .box .news-circle {
+    color: #a9a6a6;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+
+.benefit-area .box .news-title {
+    position: relative;
+    margin-top: 40px;
+}
+
+.benefit-area .box .news-title h6 {
+
+    position: absolute;
+    color: black;
+    top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    left: 35px;
+
+}
+
+.benefit-area .box .news-title i.fa-solid.fa-arrow-right {
+    position: absolute;
+    top: 15px;
+    left: 157px;
+    color: black;
+}
+@media (max-width:576px) {
+    .benefit-area .box h3 {
+
+        font-size: 40px;
+  
+    }
+    .benefit-area .box h3 {
+        font-size: 30px;
+    }
+    .benefit-area .box .benefit-title {
+        font-size: 12px;
+        padding: 5px 10px;
+      
+    }
+    .benefit-area .box p {
+        font-size: 14px;
+    }
+    .benefit-area {
+        margin-top: 50px;
+    }
+}
